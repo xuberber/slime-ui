@@ -1,0 +1,19 @@
+{
+  "name": "BeeDesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pnpm --filter=@MyPub/* run build",
+    "clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
+    "changeset": "changeset",
+    "version-packages": "changeset version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.25.0"
+  }
+}
