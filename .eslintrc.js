@@ -22,7 +22,6 @@ module.exports = {
       jsx: true,
     },
   },
-  // eslint-plugin-vue @typescript-eslint/eslint-plugin eslint-plugin-prettier的缩写
   plugins: ["react", "react-hooks", "@typescript-eslint", "prettier"],
   rules: {
     "@typescript-eslint/ban-ts-comment": "off",
