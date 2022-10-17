@@ -3,9 +3,9 @@
   "changelog": "@changesets/cli/changelog",
   "commit": false,
   "fixed": [],
-  "linked": [],
+  "linked": [["@slime-ui/*"]],
   "access": "restricted",
-  "baseBranch": "origin/main",
+  "baseBranch": "master",
   "updateInternalDependencies": "patch",
   "ignore": []
 }
