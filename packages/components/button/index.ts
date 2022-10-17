@@ -1,3 +1,3 @@
-import Button from "./src/button";
+import Button from "./src";
 
 export default { Button };

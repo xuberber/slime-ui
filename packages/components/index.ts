@@ -1,5 +1,5 @@
 import Button from "./button";
-import Avator from "./avator";
+import Avatar from "./avatar";
 
 export { Button };
-export { Avator };
+export { Avatar };

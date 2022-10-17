@@ -18,7 +18,7 @@ export default mergeConfig(
           {
             dir: "./dist/es",
             format: "es",
-            preserveModules: true,
+            // preserveModules: true,
           },
           {
             dir: "./dist/umd",
