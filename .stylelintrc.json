@@ -1,7 +1,7 @@
 {
     "extends": [
-        "stylelint-config-standard", 
-        "stylelint-config-prettier",
-        "@wemake-services/stylelint-config-scss"
+        "stylelint-config-standard",
+        "stylelint-config-standard-scss",
+        "stylelint-config-rational-order"
     ]
 }

@@ -1,20 +1,3 @@
-$mobile: 450px;
-
-@function em($size, $base-font: 16px) {
-  @return $size * 1em / $base-font;
-}
-
-%absctract-div {
-  display : block;
-}
-
-div {
-  @extend %abstract-div;
-
-  background-image: url("https://placehold.it/400x200");
-  padding: em($size: 5px);
-
-  @media screen and (min-width: $mobile) {
-    display: none;
-  }
+.div {
+  color: red;
 }

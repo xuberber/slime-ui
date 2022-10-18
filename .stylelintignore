@@ -1,0 +1,13 @@
+node_modules
+public
+dist
+es
+lib
+*.d.ts
+**/*.min.css
+**/*.js
+**/*.jsx
+**/*.tsx
+**/*.ts
+"**/*.json
+**/*.md
