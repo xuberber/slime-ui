@@ -1,5 +1,12 @@
-import Button from "./button";
-import Avatar from "./avatar";
+// import Button from "./button";
+// import Avatar from "./avatar";
 
-export { Button };
-export { Avatar };
+// const modules = import.meta.glob(["./*/*.ts", "!**.md", "!**.json"], {
+//   eager: true,
+// });
+// modules;
+let a;
+// export { Button };
+// export { Avatar };
+export * from "./avatar";
+export * from "./button";

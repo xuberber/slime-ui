@@ -1,3 +1,4 @@
-import Avatar from "./src";
+import { Avatar } from "./src";
 
-export default { Avatar: Avatar };
+export default Avatar;
+export * from "./src";

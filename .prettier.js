@@ -14,5 +14,5 @@ module.exports = {
     },
   ],
   arrowParens: "always",
-  lintOnSave: true,
+  // lintOnSave: true,
 };

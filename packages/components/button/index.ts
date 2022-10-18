@@ -1,3 +1,4 @@
-import Button from "./src";
+import { Button } from "./src";
 
-export default { Button };
+export default Button;
+export * from "./src";

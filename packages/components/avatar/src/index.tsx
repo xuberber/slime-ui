@@ -1,5 +1,3 @@
-import styles from "./index.module.scss";
-
-export default function Avatar() {
+export const Avatar = function () {
   return <button> asd </button>;
-}
+};
