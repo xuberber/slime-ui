@@ -69,7 +69,6 @@ module.exports = {
     "prefer-object-spread": "off",
     "arrow-body-style": "off",
     "react/sort-comp": "off",
-    "@typescript-eslint/no-unused-vars": 2,
   },
   overrides: [
     {
