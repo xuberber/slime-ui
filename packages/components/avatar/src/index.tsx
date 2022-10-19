@@ -1,3 +1,3 @@
-export const Avatar = function () {
+export default function Avatar() {
   return <button> asd </button>;
-};
+}

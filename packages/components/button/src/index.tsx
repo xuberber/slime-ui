@@ -1,3 +1,3 @@
-export const Button = function () {
+export default function Button() {
   return <button>asd</button>;
-};
+}

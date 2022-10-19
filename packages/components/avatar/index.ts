@@ -1,4 +1,5 @@
-import { Avatar } from "./src";
+import Avatar from "./src";
 
-export default Avatar;
+export const SAvatar = Avatar;
+export default SAvatar;
 export * from "./src";

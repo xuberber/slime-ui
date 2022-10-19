@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pnpm run -C start dev",
-    "dev": "vite",
+    "dev": "pnpm run -C start dev",
     "preview": "vite preview",
     "build:ui": "pnpm run -C packages/components build",
     "clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
@@ -20,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@slime-ui/utils": "workspace:*"
+    "@slime-ui/components": "workspace:*"
   },
   "devDependencies": {
     "@changesets/cli": "^2.25.0",

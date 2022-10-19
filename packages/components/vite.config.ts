@@ -21,7 +21,7 @@ export default mergeConfig(
             // preserveModules: true,
           },
           {
-            dir: "./dist/umd",
+            dir: "./dist/lib",
             format: "umd",
             globals: {
               react: "react",

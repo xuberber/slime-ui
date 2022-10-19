@@ -1,4 +1,5 @@
-import { Button } from "./src";
+import Button from "./src";
 
-export default Button;
+export const SButton = Button;
+export default SButton;
 export * from "./src";

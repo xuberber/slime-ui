@@ -69,6 +69,13 @@ module.exports = {
     "prefer-object-spread": "off",
     "arrow-body-style": "off",
     "react/sort-comp": "off",
+    indent: [
+      2,
+      2,
+      {
+        SwitchCase: 1, // （默认：0）指定 switch-case 语句的缩进级别
+      },
+    ],
   },
   overrides: [
     {

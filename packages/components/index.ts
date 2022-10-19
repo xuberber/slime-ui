@@ -1,3 +1,2 @@
-const modules = import.meta.glob("./**/index.ts");
-
-export default modules;
+export * from "./avatar";
+export * from "./button";

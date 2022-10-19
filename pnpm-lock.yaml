@@ -5,6 +5,7 @@ importers:
   .:
     specifiers:
       '@changesets/cli': ^2.25.0
+      '@slime-ui/components': workspace:*
       '@slime-ui/utils': workspace:*
       '@types/react': ^18.0.17
       '@types/react-dom': ^18.0.6
@@ -30,6 +31,7 @@ importers:
       typescript: ^4.6.4
       vite: ^3.1.0
     dependencies:
+      '@slime-ui/components': link:packages/components
       '@slime-ui/utils': link:packages/utils
     devDependencies:
       '@changesets/cli': 2.25.0
@@ -58,6 +60,9 @@ importers:
       vite: 3.1.8_sass@1.55.0
 
   packages/components:
+    specifiers: {}
+
+  packages/slime-ui:
     specifiers: {}
 
   packages/utils:
@@ -1271,8 +1276,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001419
-      electron-to-chromium: 1.4.282
+      caniuse-lite: 1.0.30001421
+      electron-to-chromium: 1.4.284
       node-releases: 2.0.6
       update-browserslist-db: 1.0.10_browserslist@4.21.4
     dev: true
@@ -1374,6 +1379,10 @@ packages:
 
   /caniuse-lite/1.0.30001419:
     resolution: {integrity: sha512-aFO1r+g6R7TW+PNQxKzjITwLOyDhVRLjW0LcwS/HCZGUUKTGNp9+IwLC4xyDSZBygVL/mxaFR3HIV6wEKQuSzw==}
+    dev: true
+
+  /caniuse-lite/1.0.30001421:
+    resolution: {integrity: sha512-Sw4eLbgUJAEhjLs1Fa+mk45sidp1wRn5y6GtDpHGBaNJ9OCDJaVh2tIaWWUnGfuXfKf1JCBaIarak3FkVAvEeA==}
     dev: true
 
   /capture-stack-trace/1.0.2:
@@ -1930,8 +1939,8 @@ packages:
       sigmund: 1.0.1
     dev: true
 
-  /electron-to-chromium/1.4.282:
-    resolution: {integrity: sha512-Dki0WhHNh/br/Xi1vAkueU5mtIc9XLHcMKB6tNfQKk+kPG0TEUjRh5QEMAUbRp30/rYNMFD1zKKvbVzwq/4wmg==}
+  /electron-to-chromium/1.4.284:
+    resolution: {integrity: sha512-M8WEXFuKXMYMVr45fo8mq0wUrrJHheiKZf6BArTKk9ZBYCKJEOU5H8cdWgDT+qCVZf7Na4lVUaZsA+h6uA9+PA==}
     dev: true
 
   /emoji-regex/7.0.3:
