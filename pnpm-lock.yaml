@@ -6,7 +6,6 @@ importers:
     specifiers:
       '@changesets/cli': ^2.25.0
       '@slime-ui/components': workspace:*
-      '@slime-ui/utils': workspace:*
       '@types/react': ^18.0.17
       '@types/react-dom': ^18.0.6
       '@typescript-eslint/eslint-plugin': ^5.40.0
@@ -32,7 +31,6 @@ importers:
       vite: ^3.1.0
     dependencies:
       '@slime-ui/components': link:packages/components
-      '@slime-ui/utils': link:packages/utils
     devDependencies:
       '@changesets/cli': 2.25.0
       '@types/react': 18.0.21

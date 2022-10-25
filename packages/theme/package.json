@@ -1,0 +1,6 @@
+{
+    "name": "@slime-ui/theme",
+    "version": "1.0.0",
+    "description": "All style are settled here",
+    "main": "index.scss"
+}
